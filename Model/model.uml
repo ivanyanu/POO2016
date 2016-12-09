@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_XTEzUL2OEeaXy7Zpl7ZqKg" name="RootElement">
+  <packagedElement xmi:type="uml:Class" xmi:id="_i5HCUL2OEeaXy7Zpl7ZqKg" name="Reclamo">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vazDoL3CEea-WJTMMXDOTg" name="id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wEx0wL3CEea-WJTMMXDOTg" name="descripcion" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wyl9AL3CEea-WJTMMXDOTg" name="observaciones" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xfRc0L3CEea-WJTMMXDOTg" name="detallesTecnicos" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7Q8q4L3FEea-WJTMMXDOTg" name="resuelto" visibility="private" type="_cig8wL3HEea-WJTMMXDOTg"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_tFttgL3AEea-WJTMMXDOTg" client="_i5HCUL2OEeaXy7Zpl7ZqKg" supplier="_ommd4L3AEea-WJTMMXDOTg" contract="_ommd4L3AEea-WJTMMXDOTg"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_evFnML21Eea-WJTMMXDOTg" name="Reclamo"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_v87zEL2QEeaXy7Zpl7ZqKg" name="Sistema">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Y9jFML2bEeaXy7Zpl7ZqKg" name="generarReclamo">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_6C3dQL28Eea-WJTMMXDOTg" type="_i5HCUL2OEeaXy7Zpl7ZqKg" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_pQFgwL21Eea-WJTMMXDOTg" name="listarReclamos">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Rs30cL29Eea-WJTMMXDOTg" type="_i5HCUL2OEeaXy7Zpl7ZqKg" direction="return">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WJHWQL29Eea-WJTMMXDOTg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WJctcL29Eea-WJTMMXDOTg" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_pk4FAL21Eea-WJTMMXDOTg" name="listarReclamos">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_eEdcML29Eea-WJTMMXDOTg" type="_i5HCUL2OEeaXy7Zpl7ZqKg" direction="return">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hzaaML29Eea-WJTMMXDOTg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hzgg0L29Eea-WJTMMXDOTg" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_p5gRML21Eea-WJTMMXDOTg" name="listarReclamos">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_shEPsL29Eea-WJTMMXDOTg" type="_i5HCUL2OEeaXy7Zpl7ZqKg" direction="return" effect="create">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uPWWcL29Eea-WJTMMXDOTg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uPcdEL29Eea-WJTMMXDOTg" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qQHaYL21Eea-WJTMMXDOTg" name="listarReclamosSinDelegar">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_4Cu8EL29Eea-WJTMMXDOTg" type="_i5HCUL2OEeaXy7Zpl7ZqKg" direction="return">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6xlH8L29Eea-WJTMMXDOTg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6xrOkL29Eea-WJTMMXDOTg" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qjBvUL21Eea-WJTMMXDOTg" name="evaluarSatisfaccion"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_q5RFEL21Eea-WJTMMXDOTg" name="clasificarReclamo"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rOZAgL21Eea-WJTMMXDOTg" name="agregarDescripcion"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rhqh0L21Eea-WJTMMXDOTg" name="delegarReclamo"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_s9m7YL21Eea-WJTMMXDOTg" name="asignarReclamo"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tglsoL21Eea-WJTMMXDOTg" name="finalizarReclamo"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_t5U8wL21Eea-WJTMMXDOTg" name="altaClasificacion">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ygp-IL2-Eea-WJTMMXDOTg" type="_IuTFqb2aEeaXy7Zpl7ZqKg" direction="return">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1zoKwL2-Eea-WJTMMXDOTg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1zuRYL2-Eea-WJTMMXDOTg" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_uTB2ML21Eea-WJTMMXDOTg" name="bajaClasificacion"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_uxGSQL21Eea-WJTMMXDOTg" name="modificarClasificacion"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vKitAL21Eea-WJTMMXDOTg" name="listarClasificaciones">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_IWj6cL2_Eea-WJTMMXDOTg" type="_IuTFqb2aEeaXy7Zpl7ZqKg" direction="return">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Jh2B0L2_Eea-WJTMMXDOTg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jh8IcL2_Eea-WJTMMXDOTg" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_AZc7IL3ZEea-WJTMMXDOTg" name="addToReclamos"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_A4oKcL3ZEea-WJTMMXDOTg" name="addToReclamosSinClasificar"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ievl4L2aEeaXy7Zpl7ZqKg" name="Tecnico">
+    <generalization xmi:type="uml:Generalization" xmi:id="_FbrBAL2bEeaXy7Zpl7ZqKg" general="_KoC0sL2aEeaXy7Zpl7ZqKg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MMbb8L3DEea-WJTMMXDOTg" name="id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HdujEL3BEea-WJTMMXDOTg" name="Tecnico"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_D41WoL3aEea-WJTMMXDOTg" name="getReclamos">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_H4nl8L3aEea-WJTMMXDOTg" type="_i5HCUL2OEeaXy7Zpl7ZqKg" direction="return">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_L8aykL3aEea-WJTMMXDOTg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L8j8gL3aEea-WJTMMXDOTg" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_IuTFqb2aEeaXy7Zpl7ZqKg" name="Clasificacion">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8wfngL3EEea-WJTMMXDOTg" name="id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9KPkQL3EEea-WJTMMXDOTg" name="nombre" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9kMVUL3EEea-WJTMMXDOTg" name="descripcion" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_86_x4L3FEea-WJTMMXDOTg" name="estado" visibility="private" type="_AsaDcL3FEea-WJTMMXDOTg"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_y9n8EL3AEea-WJTMMXDOTg" client="_IuTFqb2aEeaXy7Zpl7ZqKg" supplier="_v6m3AL3AEea-WJTMMXDOTg" contract="_v6m3AL3AEea-WJTMMXDOTg"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_GRFJwL3BEea-WJTMMXDOTg" name="Clasificacion"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_KaWW8L2aEeaXy7Zpl7ZqKg" name="Area">
+    <generalization xmi:type="uml:Generalization" xmi:id="_GtVdML2bEeaXy7Zpl7ZqKg" general="_KoC0sL2aEeaXy7Zpl7ZqKg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Ylk4AL3FEea-WJTMMXDOTg" name="id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Gp-x8L3BEea-WJTMMXDOTg" name="Area"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_TsbAoL3ZEea-WJTMMXDOTg" name="getReclamos">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="__If0IL3ZEea-WJTMMXDOTg" type="_i5HCUL2OEeaXy7Zpl7ZqKg" direction="return">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BnowEL3aEea-WJTMMXDOTg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Bnx6AL3aEea-WJTMMXDOTg" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_KoC0sL2aEeaXy7Zpl7ZqKg" name="Persona">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dt0kML3FEea-WJTMMXDOTg" name="id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_eHirwL3FEea-WJTMMXDOTg" name="dni" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_efyMoL3FEea-WJTMMXDOTg" name="nacionalidad" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_e8HjUL3FEea-WJTMMXDOTg" name="nombre" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_fbkfcL3FEea-WJTMMXDOTg" name="apellido" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8DAZ8L3FEea-WJTMMXDOTg" name="estado" visibility="private" type="_AsaDcL3FEea-WJTMMXDOTg"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_4rHDUL3AEea-WJTMMXDOTg" client="_KoC0sL2aEeaXy7Zpl7ZqKg" supplier="_1EsWQL3AEea-WJTMMXDOTg" contract="_1EsWQL3AEea-WJTMMXDOTg"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HGz34L3BEea-WJTMMXDOTg" name="Persona"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_K6QmEL2aEeaXy7Zpl7ZqKg" name="Recepcionista">
+    <generalization xmi:type="uml:Generalization" xmi:id="_J3tugL2bEeaXy7Zpl7ZqKg" general="_KoC0sL2aEeaXy7Zpl7ZqKg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_hVE-wL3FEea-WJTMMXDOTg" name="id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_IZ3bML3BEea-WJTMMXDOTg" name="Recepcionista"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LKQJ4L2aEeaXy7Zpl7ZqKg" name="Usuario">
+    <generalization xmi:type="uml:Generalization" xmi:id="__KZQML2aEeaXy7Zpl7ZqKg" general="_KoC0sL2aEeaXy7Zpl7ZqKg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8K1u0L2aEeaXy7Zpl7ZqKg" name="tecnico" type="_Ievl4L2aEeaXy7Zpl7ZqKg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DdKlwL3DEea-WJTMMXDOTg" name="id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_H02poL3BEea-WJTMMXDOTg" name="Usuario"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_aQzToL3ZEea-WJTMMXDOTg" name="getReclamos">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_j3WXIL3ZEea-WJTMMXDOTg" type="_i5HCUL2OEeaXy7Zpl7ZqKg" direction="return">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nyQGcL3ZEea-WJTMMXDOTg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nyWNEL3ZEea-WJTMMXDOTg" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_aa5_8L3bEea-WJTMMXDOTg" name="agregarReclamo"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_ommd4L3AEea-WJTMMXDOTg" name="IReclamo"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_v6m3AL3AEea-WJTMMXDOTg" name="IClasificacion"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_1EsWQL3AEea-WJTMMXDOTg" name="IPersona"/>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_xSMfkL3BEea-WJTMMXDOTg" name="Avance"/>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_AsaDcL3FEea-WJTMMXDOTg" name="Estado">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_BCCVML3FEea-WJTMMXDOTg" name="ACTIVO"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_CFvN4L3FEea-WJTMMXDOTg" name="INACTIVO"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_RaZqwL3FEea-WJTMMXDOTg" client="_KoC0sL2aEeaXy7Zpl7ZqKg" supplier="_AsaDcL3FEea-WJTMMXDOTg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_U9c6wL3FEea-WJTMMXDOTg" client="_IuTFqb2aEeaXy7Zpl7ZqKg" supplier="_AsaDcL3FEea-WJTMMXDOTg"/>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_cig8wL3HEea-WJTMMXDOTg" name="Resuelto">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_eHrjwL3HEea-WJTMMXDOTg" name="SI"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_e3srcL3HEea-WJTMMXDOTg" name="NO"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_f8hlgL3HEea-WJTMMXDOTg" name="MOMENTANEO"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_yLTDEL3HEea-WJTMMXDOTg" client="_i5HCUL2OEeaXy7Zpl7ZqKg" supplier="_cig8wL3HEea-WJTMMXDOTg"/>
+</uml:Model>
