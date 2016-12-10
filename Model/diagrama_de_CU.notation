@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_W6Br0L4rEeaiHqwOUe32kA" type="UseCase" name="UseCase Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_agLTIL4rEeaiHqwOUe32kA" type="2011">
+    <children xmi:type="notation:DecorationNode" xmi:id="_agOWcL4rEeaiHqwOUe32kA" type="5014">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_agO9gL4rEeaiHqwOUe32kA" x="20" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_agRZwL4rEeaiHqwOUe32kA" type="6029">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_agRZwb4rEeaiHqwOUe32kA" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_agSA0L4rEeaiHqwOUe32kA" type="6037">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_agSn4L4rEeaiHqwOUe32kA" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_agSn4b4rEeaiHqwOUe32kA" type="6048">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_agTO8L4rEeaiHqwOUe32kA" y="5"/>
+    </children>
+    <element xmi:type="uml:Actor" href="diagrama_de_CU.uml#_af3KEL4rEeaiHqwOUe32kA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agLTIb4rEeaiHqwOUe32kA" x="296" y="196"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_W6Br0b4rEeaiHqwOUe32kA" name="diagram_compatibility_version" stringValue="1.1.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_W6Br0r4rEeaiHqwOUe32kA"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_W6Br074rEeaiHqwOUe32kA">
+    <owner xmi:type="uml:Model" href="diagrama_de_CU.uml#_W5VvUL4rEeaiHqwOUe32kA"/>
+  </styles>
+  <element xmi:type="uml:Model" href="diagrama_de_CU.uml#_W5VvUL4rEeaiHqwOUe32kA"/>
+</notation:Diagram>
